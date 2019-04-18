@@ -1,7 +1,7 @@
 import telepot
 from pprint import pprint
 import sys, time
-bot = telepot.Bot("487545240:AAGREW2PQJE4EfK6acgy2x5mzi0Wz4IESMY")
+bot = telepot.Bot("")
 print (bot.getMe())
 
 def on_chat_message(msg):
